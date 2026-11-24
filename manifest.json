@@ -1,0 +1,16 @@
+
+{
+  "name": "مهامي - Mahami",
+  "short_name": "مهامي",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "./Mahami_Checklist_App_Icon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
