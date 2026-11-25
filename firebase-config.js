@@ -1,13 +1,17 @@
-// Public Firebase web configuration (NOT secret - it only identifies your project; the real
-// protection is firestore.rules). Fill the values from: Firebase console > Project settings >
-// General > Your apps > Web app > "SDK setup and configuration".
-// vapidKey: Project settings > Cloud Messaging > Web Push certificates > "Generate key pair".
-self.MAHAMI_FIREBASE = {
-  apiKey: 'PASTE_API_KEY',
-  authDomain: 'PASTE_PROJECT_ID.firebaseapp.com',
-  projectId: 'PASTE_PROJECT_ID',
-  storageBucket: 'PASTE_PROJECT_ID.firebasestorage.app',
-  messagingSenderId: 'PASTE_SENDER_ID',
-  appId: 'PASTE_APP_ID',
-  vapidKey: 'PASTE_VAPID_PUBLIC_KEY',
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyChWJHlrfOldfN_WqOjZiVNKVprYUhS_Rg",
+  authDomain: "mahami-x.firebaseapp.com",
+  projectId: "mahami-x",
+  storageBucket: "mahami-x.firebasestorage.app",
+  messagingSenderId: "949969449667",
+  appId: "1:949969449667:web:89d4b5d613227c6c0da876"
 };
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
